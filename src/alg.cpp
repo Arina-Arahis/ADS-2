@@ -44,7 +44,7 @@ for (uint16_t i = 1; i < 2 * count; i += 2) {
     if (flag) {
         ret -= calcItem(x, i);
     }
-    else {
+        } else {
         ret += calcItem(x, i);
     }
     flag = !flag;
@@ -59,7 +59,7 @@ for (uint16_t i = 2; i < 2 * count; i += 2) {
     if (flag) {
         ret -= calcItem(x, i);
     }
-    else {
+        } else {
         ret += calcItem(x, i);
     }
     flag = !flag;
